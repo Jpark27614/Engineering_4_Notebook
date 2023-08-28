@@ -62,5 +62,6 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ![Volleyball!](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/MISC_DETAIL_vs_Tarleton_St_08272021_59912.jpg)  
 
 ### Test GIF
+
 ![Volleyball](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/200w.gif)  
 
