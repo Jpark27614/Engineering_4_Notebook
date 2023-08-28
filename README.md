@@ -56,7 +56,11 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
+[Hyperlink text](http://www.google.com)      
 
 ### Test Image
+![Volleyball](https://www.google.com/search?sca_esv=560734445&rlz=1C1CHBD_enUS1073&q=volleyball&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjl5rXB9f-AAxWzMlkFHU6vAUcQ0pQJegQIDBAB&biw=1920&bih=963&safe=active&ssui=on#imgrc=P5-u10qvFhPM9M)  
+
 
 ### Test GIF
+![Volleyball!](https://www.google.com/search?q=volleyball+gif&&tbm=isch&ved=2ahUKEwjCmc_C9f-AAxW7CVkFHQnLB38Q2-cCegQIABAA&oq=volleyball+gif&gs_lcp=CgNpbWcQAzIECAAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQigUQsQMQQzoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgcIABCKBRBDOg0IABCKBRCxAxCDARBDOgYIABAIEB46CQgAEBgQgAQQClDbBljeGWDlIGgDcAB4AIABNYgBwgKSAQE4mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=pd7sZIKzKruT5NoPiZaf-Ac&bih=963&biw=1920&rlz=1C1CHBD_enUS1073&safe=active&ssui=on#imgrc=pZ76pLRLUeS7lM)  
