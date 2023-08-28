@@ -59,8 +59,8 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 [Hyperlink text](http://www.google.com)      
 
 ### Test Image
-![Volleyball](https://www.google.com/search?sca_esv=560734445&rlz=1C1CHBD_enUS1073&q=volleyball&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjl5rXB9f-AAxWzMlkFHU6vAUcQ0pQJegQIDBAB&biw=1920&bih=963&safe=active&ssui=on#imgrc=P5-u10qvFhPM9M)  
+![Volleyball](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/200w.gif)  
 
 
 ### Test GIF
-![Volleyball!](https://www.google.com/search?q=volleyball+gif&&tbm=isch&ved=2ahUKEwjCmc_C9f-AAxW7CVkFHQnLB38Q2-cCegQIABAA&oq=volleyball+gif&gs_lcp=CgNpbWcQAzIECAAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQigUQsQMQQzoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgcIABCKBRBDOg0IABCKBRCxAxCDARBDOgYIABAIEB46CQgAEBgQgAQQClDbBljeGWDlIGgDcAB4AIABNYgBwgKSAQE4mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=pd7sZIKzKruT5NoPiZaf-Ac&bih=963&biw=1920&rlz=1C1CHBD_enUS1073&safe=active&ssui=on#imgrc=pZ76pLRLUeS7lM)  
+![Volleyball!]()  
