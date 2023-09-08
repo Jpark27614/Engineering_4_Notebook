@@ -1,0 +1,8 @@
+import time
+import board #type:ignore
+
+for x in range(10,0,-1):
+    time.sleep(.5)
+    print(x)
+
+print("liftoff")
