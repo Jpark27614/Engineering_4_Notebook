@@ -7,7 +7,7 @@ led.direction = digitalio.Direction.OUTPUT #says LED is an output
 led.value = True
 
 while True: #loop
- led.value = False #sets led to off
+ led.value = False #led off
  time.sleep(.5) #delay
  led.value = True #led on
  time.sleep(.5)
