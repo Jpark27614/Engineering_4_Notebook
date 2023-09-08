@@ -12,7 +12,7 @@
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+For this assignment, we had to make the LED on the Pico blink. 
 
 ### Evidence 
 
