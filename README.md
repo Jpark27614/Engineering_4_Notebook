@@ -23,11 +23,12 @@ For this assignment, we had to make the LED on the Pico blink.
 No wiring
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+[Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/LED_blink.py) 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was a good reintroduction to circuit python for me. It reminded me of the basic lines of code like time.sleep() and the different variables to import like board. It was also a great tutorial to pushing to github which last year I didn't fully know how to do. The tutorial explains that you have to save the code with CTR S then in Explorer click the plus and finally use the drop down next to commit and press "commit and push". Overall I really enjoyed this assignment because it was fairly simple but informative after a summer of not coding.
 
 &nbsp;
 
