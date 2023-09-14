@@ -30,6 +30,24 @@ No wiring
 
 This assignment was a good reintroduction to circuit python for me. It reminded me of the basic lines of code like time.sleep() and the different variables to import like board. It was also a great tutorial to pushing to github which last year I didn't fully know how to do. The tutorial explains that you have to save the code with CTR S then in Explorer click the plus and finally use the drop down next to commit and press "commit and push". Overall I really enjoyed this assignment because it was fairly simple but informative after a summer of not coding.
 
+## Launchpad Part 1 (countdown)
+
+### Assignment Description
+We were assigned to make a countdown from 10 in the terminal and when it gets to 1 it says "Liftoff"
+
+### Evidence 
+![ezgif-4-5c041d7028](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/6c06b48a-1de6-400c-8a44-48039b61105d)
+
+### Wiring
+No wiring
+
+### Code
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Laucnhpad_Part_1)
+
+### Reflection
+
+This assignment was simple and informative for using Pico and the terminal. I learned that to run in Pico you have to click on the code then save (CTR s) and to run you click (CTR d), I was a little confused because I was pressing F5 to run it and it directed my to the circuit python terminal instead of the pico one. 1 piece of code I learned was the range line (for x in range(0,0,0):) I used this line to set the constraints for the countdown (1-10). So for the first blank, you put in the number  you want to start with like 10, for the second blank you want to put in the number 1 less than the one you want it to stop at, so if I wanted to stop it at 1 I would put 0. Finally, for the last one, it is the number from which you want to count up or down so I wanted to count by 1 so I had to put -1 and if you don't put anything in the blank it will count up from 1. Overall this assignment wasn't too difficult and has a good explanation of what the range command did.
+
 &nbsp;
 
 ## Onshape_Assignment_Template
