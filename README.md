@@ -48,6 +48,18 @@ No wiring
 
 This assignment was simple and informative for using Pico and the terminal. I learned that to run in Pico you have to click on the code then save (CTR s) and to run you click (CTR d), I was a little confused because I was pressing F5 to run it and it directed my to the circuit python terminal instead of the pico one. 1 piece of code I learned was the range line (for x in range(0,0,0):) I used this line to set the constraints for the countdown (1-10). So for the first blank, you put in the number  you want to start with like 10, for the second blank you want to put in the number 1 less than the one you want it to stop at, so if I wanted to stop it at 1 I would put 0. Finally, for the last one, it is the number from which you want to count up or down so I wanted to count by 1 so I had to put -1 and if you don't put anything in the blank it will count up from 1. Overall this assignment wasn't too difficult and has a good explanation of what the range command did.
 
+## Launchpad Part 2 (LED)
+
+### Assignment Description
+For this assignment, we had to add on to the previous countdown but make a red LED blink when it counted down and a blue light blink when it said "Liftoff".
+
+### Evidence
+![ezgif-3-79db49eaea](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/f1670d59-62e1-4002-94ee-dddbf565b040)
+
+### wiring 
+![launchpad led wiring](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/a741c193-4b99-4aba-8f90-9eeb1544838d)
+
+
 &nbsp;
 
 ## Onshape_Assignment_Template
