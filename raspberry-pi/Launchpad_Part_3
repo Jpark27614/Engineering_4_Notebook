@@ -1,0 +1,26 @@
+import time
+import digitalio #type:ignore
+import board #type:ignore
+ledr = digitalio.DigitalInOut(board.GP15) # assigning LED pin
+ledb = digitalio.DigitalInOut(board.GP16)
+button = digitalio.DigitalInOut(board.GP17) # assigning Button pin 
+button.pull = digitalio.Pull.DOWN # pulling button down so that when Button.value = True it means it's being pressed
+button.direction = digitalio.Direction.INPUT # sets button as input 
+ledr.direction = digitalio.Direction.OUTPUT # sets LEDs as outputs 
+ledb.direction = digitalio.Direction.OUTPUT
+
+
+while True: 
+    if button.value == True: # if the button is pressed then print the previous asignment 
+        print("button on")
+        for x in range(10, 0, -1): # sets range
+            print(x)
+            ledr.value = True 
+            time.sleep(0.5)
+            ledr.value=False
+            time.sleep(0.5)
+            if x <= 1: # if x is less than 1 turn on blue LED and Liftoff 
+                print("liftoff")
+                ledb.value = True
+                time.sleep(2)
+                ledb.value = False

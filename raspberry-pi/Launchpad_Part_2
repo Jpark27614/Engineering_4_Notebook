@@ -1,18 +1,18 @@
 import time
 import digitalio #type:ignore
 import board #type:ignore
-ledr = digitalio.DigitalInOut(board.GP15)
+ledr = digitalio.DigitalInOut(board.GP15) #connecting the LED to the pico pin
 ledb = digitalio.DigitalInOut(board.GP16)
-ledr.direction = digitalio.Direction.OUTPUT
+ledr.direction = digitalio.Direction.OUTPUT #Sets the LED as outputs
 ledb.direction = digitalio.Direction.OUTPUT
 
-for x in range(10, 0, -1):
+for x in range(10, 0, -1): #sets range for countdown
     print(x)
     ledr.value=True 
     time.sleep(0.5)
     ledr.value=False
     time.sleep(0.5)
-    if x <= 1: 
+    if x <= 1: #says when x is less than 1 print liftoff and turn the blue LED on 
         print("liftoff")
         ledb.value = True
         time.sleep(2)

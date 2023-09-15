@@ -4,7 +4,6 @@ import time #imports the variable time so I can use time.sleep
 import time.sleep #type:ignore
 led = digitalio.DigitalInOut(board.LED) #assigning "led" to mean the LED on the board
 led.direction = digitalio.Direction.OUTPUT #says LED is an output 
-led.value = True
 
 while True: #loop
  led.value = False #led off

@@ -1,8 +1,8 @@
 import time
 import board #type:ignore
 
-for x in range(10,0,-1):
-    time.sleep(.5)
-    print(x)
+for x in range(10,0,-1): #sets range of x starting at 10 ending at 0 and gong down by -1 
+    time.sleep(.5) #pause
+    print(x) #printing x
 
-print("liftoff")
+print("liftoff") #printing liftoff after the countdownt to 1
