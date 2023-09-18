@@ -66,6 +66,14 @@ For this assignment, we had to add on to the previous countdown but make a red L
 
 This assignment was a good next step and reintroduction to LED's. One problem I ran into with this assignment was that I had put the "liftoff" after the loop but for the LED to turn on when it printed liftoff, I had to put it in a if statement. The if statement says that "if x <= 1:" if x is less than 1 then print liftoff and turn on the blue LED. This was also a good recap for the LED code with the line "ledr = digitalio.DigitalInOut(board.GP15)" and "ledr.direction = digitalio.Direction.OUTPUT" connecting the LED to the ground pin and stating the LED as an output. Overall this was a good and simple assignment that helped me better understand Circuit Python.
 
+## Launchpad Part 3 (button)
+
+### Assignment Description 
+For this assignment, we had to make the countdown start when we pressed a button.
+
+### Evidence
+
+
 &nbsp;
 
 ## Onshape_Assignment_Template
