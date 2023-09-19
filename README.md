@@ -79,6 +79,8 @@ For this assignment, we had to make the countdown start when we pressed a button
 ### Coding
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_3)
 
+### Reflection 
+This assignment was a good introduction to buttons and was relatively easy. A couple of necessary lines for the button include "button = digitalio.DigitalInOut(board.GP17)", "button.value =", and "button.pull = digitalio.Pull.DOWN". For the pull-down it means that if the button is pressed the button value equals True and that you need to connect it to the 3v3 pin, the opposite is true for pull up where when the button is pressed it equals false and you need to be connected to GND. Another thing I learned is that to print a button value or read one you have to use the line button.value which seems obvious but I was just setting button = to something and it wasn't working. Overall, this assignment was a good introduction back to buttons.
 &nbsp;
 
 ## Onshape_Assignment_Template
