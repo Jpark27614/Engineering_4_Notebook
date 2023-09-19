@@ -75,6 +75,7 @@ For this assignment, we had to make the countdown start when we pressed a button
 ![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-optimize.gif)
 
 ### Wiring
+
 ![WIN_20230919_13_27_15_Pro](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/f2468d71-3d93-4913-bd7a-1ddc1d924fd9)
 
 
