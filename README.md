@@ -72,7 +72,7 @@ This assignment was a good next step and reintroduction to LED's. One problem I 
 For this assignment, we had to make the countdown start when we pressed a button.
 
 ### Evidence
-
+![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-optimize.gif)
 
 &nbsp;
 
