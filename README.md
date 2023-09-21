@@ -100,6 +100,10 @@ For this assignment, we had to make a servo move 180 degrees after it prints lif
 ### coding
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_4)
 
+### Reflection
+
+This assignment was a good intro to motors and libraries. In this assignment, I learned how to import libraries to circuit python, first, you have to download the library bundle and unzip the file (Extract all). Next, you find the library you want, in this case, "adafruit_motor". You then have to import it into the circuit python file in the library folder. I also learn the servo commands you need for circuit python which are pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle =2** 15, frequency = 50), servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500), and servo1.angle = x. The PWMio allows you to control pins with pulse width modulation in this case GP0 and setting the frequency to 50. servo.Servo sets the maximum and minimum pulse of the servo so it does no go further than a certain point. Finally, servo1.angle sets the angle of the servo so if I set x to 180 it would go from whatever angle it's at and go to 180.
+
 &nbsp;
 
 ## Onshape_Assignment_Template
