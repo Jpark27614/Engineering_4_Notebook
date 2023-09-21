@@ -94,6 +94,12 @@ For this assignment, we had to make a servo move 180 degrees after it prints lif
 
 ![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(3).gif) 
 
+### Wiring 
+![0](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/14deccb5-e756-4d19-aebe-16a47aac0807)
+
+### coding
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_4)
+
 &nbsp;
 
 ## Onshape_Assignment_Template
