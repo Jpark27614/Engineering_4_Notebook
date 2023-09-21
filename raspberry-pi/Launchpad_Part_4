@@ -12,7 +12,6 @@ ledr.direction = digitalio.Direction.OUTPUT # sets LEDs as outputs
 ledb.direction = digitalio.Direction.OUTPUT
 pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle =2** 15, frequency = 50) ## assigns servo to GP0 and states the frequency 
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500) #shows the max and min pulse which limits the servo movement 
-servo1.angle = 0 # starts the servo at 0 degrees
 
 while True: 
     if button.value == True: # if the button is pressed then print the previous asignment 
@@ -25,6 +24,8 @@ while True:
             time.sleep(0.5)
             if x <= 1: # if x is less than 1 turn on blue LED and Liftoff 
                 print("liftoff")
+                servo1.angle = 180 #sets servo angle to 180
                 ledb.value = True
                 time.sleep(2)
+                servo1.angle = 0 #resets the servo back to 0 
                 ledb.value = False
