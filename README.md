@@ -59,6 +59,40 @@ For this assignment, we had to add on to the previous countdown but make a red L
 ### wiring 
 ![launchpad led wiring](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/a741c193-4b99-4aba-8f90-9eeb1544838d)
 
+### Code
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_2)
+
+### Reflection
+
+This assignment was a good next step and reintroduction to LED's. One problem I ran into with this assignment was that I had put the "liftoff" after the loop but for the LED to turn on when it printed liftoff, I had to put it in a if statement. The if statement says that "if x <= 1:" if x is less than 1 then print liftoff and turn on the blue LED. This was also a good recap for the LED code with the line "ledr = digitalio.DigitalInOut(board.GP15)" and "ledr.direction = digitalio.Direction.OUTPUT" connecting the LED to the ground pin and stating the LED as an output. Overall this was a good and simple assignment that helped me better understand Circuit Python.
+
+## Launchpad Part 3 (button)
+
+### Assignment Description 
+For this assignment, we had to make the countdown start when we pressed a button.
+
+### Evidence
+![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-optimize.gif)
+
+### Wiring
+
+![WIN_20230919_13_27_15_Pro](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/f2468d71-3d93-4913-bd7a-1ddc1d924fd9)
+
+
+### Coding
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_3)
+
+### Reflection 
+This assignment was a good introduction to buttons and was relatively easy. A couple of necessary lines for the button include "button = digitalio.DigitalInOut(board.GP17)", "button.value =", and "button.pull = digitalio.Pull.DOWN". For the pull-down it means that if the button is pressed the button value equals True and that you need to connect it to the 3v3 pin, the opposite is true for pull up where when the button is pressed it equals false and you need to be connected to GND. Another thing I learned is that to print a button value or read one you have to use the line button.value which seems obvious but I was just setting button = to something and it wasn't working. Overall, this assignment was a good introduction back to buttons.
+
+## Launchpad Part 4 (Servo)
+
+### Assignment Description
+For this assignment, we had to make a servo move 180 degrees after it prints liftoff to simulate a launch tower disconnecting
+
+### Evidence 
+
+![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(3).gif) 
 
 &nbsp;
 
