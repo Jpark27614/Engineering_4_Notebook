@@ -88,7 +88,11 @@ This assignment was a good introduction to buttons and was relatively easy. A co
 ## Launchpad Part 4 (Servo)
 
 ### Assignment Description
-For this assignment, we had to 
+For this assignment, we had to make a servo move 180 degrees after it prints liftoff to simulate a launch tower disconnecting
+
+### Evidence 
+
+![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(3).gif) 
 
 &nbsp;
 
