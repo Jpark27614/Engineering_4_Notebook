@@ -1,0 +1,13 @@
+import adafruit_mpu6050 #type:ignore
+import busio #type: ignore
+import board #type:ignore
+sda_pin = board.GP14
+scl_pin = board.GP15
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
+while True:
+    acceleration = mpu.acceleration 
+    x_acceleration, y_acceleration, z_acceleration = acceleration 
+    print(f"acceleration m/s^2- X:{acceleration} Y:{acceleration} Z:{acceleration}")
+
