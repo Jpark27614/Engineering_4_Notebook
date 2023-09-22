@@ -102,7 +102,22 @@ For this assignment, we had to make a servo move 180 degrees after it prints lif
 
 ### Reflection
 
-This assignment was a good intro to motors and libraries. In this assignment, I learned how to import libraries to circuit python, first, you have to download the library bundle and unzip the file (Extract all). Next, you find the library you want, in this case, "adafruit_motor". You then have to import it into the circuit python file in the library folder. I also learn the servo commands you need for circuit python which are pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle =2** 15, frequency = 50), servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500), and servo1.angle = x. The PWMio allows you to control pins with pulse width modulation in this case GP0 and setting the frequency to 50. servo.Servo sets the maximum and minimum pulse of the servo so it does no go further than a certain point. Finally, servo1.angle sets the angle of the servo so if I set x to 180 it would go from whatever angle it's at and go to 180.
+This assignment was a good intro to motors and libraries. In this assignment, I learned how to import libraries to circuit python, first, you have to download the library bundle and unzip the file (Extract all). Next, you find the library you want, in this case, "adafruit_motor". You then have to import it into the circuit python file in the library folder. I also learned the servo commands you need for circuit python which are pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle =2** 15, frequency = 50), servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500), and servo1.angle = x. The PWMio allows you to control pins with pulse width modulation in this case GP0 and setting the frequency to 50. servo.Servo sets the maximum and minimum pulse of the servo so it does not go further than a certain point. Finally, servo1.angle sets the angle of the servo so if I set x to 180 it would go from whatever angle it's at and go to 180.
+
+## Crash Avoidance Part 1 (Acceleration)
+
+### Assignment Description
+For this assignment, we had to print out the X, Y, and Z values from where the position the MPU was. 
+
+### Evidence 
+![ezgif com-video-to-gif (4)](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/932d6412-8a23-4459-9d42-9078a91d5c87)
+
+### Wiring 
+
+![IMG_20230922_135553](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/abf397f0-9e8f-4d42-b0b9-5c17f5c508b2)
+
+### Coding
+
 
 &nbsp;
 
