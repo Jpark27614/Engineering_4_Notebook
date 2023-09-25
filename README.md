@@ -117,7 +117,7 @@ For this assignment, we had to print out the X, Y, and Z values from where the p
 ![IMG_20230922_135553](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/abf397f0-9e8f-4d42-b0b9-5c17f5c508b2)
 
 ### Coding
-
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_1)
 
 &nbsp;
 
