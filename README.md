@@ -123,7 +123,8 @@ Got help from [Mason Divers](https://github.com/masond552/Engineering_4_Notebook
 
 ### Reflection 
 
-This assignment was relatively difficult but a good introduction to the MPU. You have to use i2c = busio.I2C(scl_pin, sda_pin) to link the code to the MPU and to assign the SCL and SDA pin you have to use SCL/SDA = board.x. The next line of code is acceleration = mpu.acceleration this just gives a simpler name to the MPU acceleration. The most complicated line of code for this assignment was print(f"acceleration m/s^2- X:{round(acceleration[0],3)} Y:{round(acceleration[1],3)} Z:{round(acceleration[2]),3}" ) this command uses a tuple with the [0],[1],[2] to separate them. The round and ,3 rounds the number to the thousands place so the terminal is more organized. Overall, this assignment was very challenging for me because code is not my strong suit and I did need assistance from Mason
+This assignment was relatively difficult but a good introduction to the MPU. You have to use i2c = busio.I2C(scl_pin, sda_pin) to link the code to the MPU and to assign the SCL and SDA pin you have to use SCL/SDA = board.x. The next line of code is acceleration = mpu.acceleration this just gives a simpler name to the MPU acceleration. The most complicated line of code for this assignment was print(f"acceleration m/s^2- X:{round(acceleration[0],3)} Y:{round(acceleration[1],3)} Z:{round(acceleration[2]),3}" ) this command uses a tuple with the [0],[1],[2] to separate them. The round and ,3 rounds the number to the thousands place so the terminal is more organized. Overall, this assignment was very challenging for me because code is not my strong suit and I did need assistance from Mason.
+
 
 
 &nbsp;
