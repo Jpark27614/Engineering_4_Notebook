@@ -136,8 +136,12 @@ For this assignment, we had to make an LED turn on whenever the MPU was at a 90-
 ### Wiring
 ![0](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/02bf826b-e833-4a58-a40c-bdbc2d092d77)
 
+### Code
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_2)
 
+### Reflection
 
+This assignment was very informative about batteries and not too difficult to work with the LED. For the code, I added onto the previous assignment and all I changed was adding the LED values and a new if and elif statement. For the if statement I used the line if z_acceleration < 0: this states that if the z_acceleration from this line of code, x_acceleration, y_acceleration, z_acceleration = acceleration (defining them to the MPU acceleration) is less than 0 then turn the LED on. This works because when the value is negative the MPU is turned 90 degrees or more and only not when it's facing upright. The elif statement (elif z_acceleration > 0:) says that when the value of z is positive or level then turn the LED off or else the LED will stay on forever. For the battery, no code is needed and we were given how to wire it to GND and the VSYS pin. Overall, this assignment was fairly simple but was a good introduction to the battery and helped me to understand tuples better. 
 
 &nbsp;
 
