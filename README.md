@@ -125,6 +125,18 @@ Got help from [Mason Divers](https://github.com/masond552/Engineering_4_Notebook
 
 This assignment was relatively difficult but a good introduction to the MPU. You have to use i2c = busio.I2C(scl_pin, sda_pin) to link the code to the MPU and to assign the SCL and SDA pin you have to use SCL/SDA = board.x. The next line of code is acceleration = mpu.acceleration this just gives a simpler name to the MPU acceleration. The most complicated line of code for this assignment was print(f"acceleration m/s^2- X:{round(acceleration[0],3)} Y:{round(acceleration[1],3)} Z:{round(acceleration[2]),3}" ) this command uses a tuple with the [0],[1],[2] to separate them. The round and ,3 rounds the number to the thousands place so the terminal is more organized. Overall, this assignment was very challenging for me because code is not my strong suit and I did need assistance from Mason.
 
+## Crash Avoidance Part 2 (light and power)
+
+### Assignment Description
+For this assignment, we had to make an LED turn on whenever the MPU was at a 90-degree angle.
+
+### Evidence
+![ezgif-1-49c31ba919](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/76985ac5-f7c9-4c36-8c59-14c1c2bf6e75)
+
+### Wiring
+![0](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/02bf826b-e833-4a58-a40c-bdbc2d092d77)
+
+
 
 
 &nbsp;
