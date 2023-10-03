@@ -147,21 +147,33 @@ This assignment was very informative about batteries and not too difficult to wo
 
 ## Onshape_Assignment_Template
 
-### Assignment Description
+## Beam 
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+### Assignment Description
+This assignment explores engineering tradeoffs by designing a 3D-printed beam to maximize load-bearing capacity while adhering to specific constraints. The goal is to create a beam that avoids breaking or excessive bending(beyond 35mm) and satisfies the following requirements:
+
+
+* Ensure full engagement with the holder. 
+* Follow the example eye bolt mounting geometry. 
+* Place the eyebolt hole's center 180 mm from the attachment block's front face. 
+* Prevent any part of the beam from extending below the attachment block. 
+* Maintain vertical angles >= 45 degrees relative to the horizontal plane. 
+* Use PLA material. 
+* Keep the entire beam, including the attachment block, under 13 grams in weight.
 
 ### Part Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Onshape](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651)
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Beam Starter + Holder Copy 1 (1)](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/766cf5b4-94f9-42e1-afa2-e64d0952e2ba)
+![Beam Starter + Holder Copy 1](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/f180a9b1-f98f-467f-bd19-60019194ef5e)
+
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was very fun and challenging for us. We took inspiration on this design from the I beam which is the strongest beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
+
 
 &nbsp;
 
