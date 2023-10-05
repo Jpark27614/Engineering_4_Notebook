@@ -174,6 +174,14 @@ This assignment explores engineering tradeoffs by designing a 3D-printed beam to
 
 This assignment was very fun and challenging for us. We took inspiration on this design from the I beam which is the strongest beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
 
+## Beam Part 3 
+![Assembly 1 (2)](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/52434908-00ab-4d5e-bc0c-1c5b10ab8dfd)
+
+![Assembly 1](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/b75d61dd-dec5-4f03-b979-d2e7e029005f)
+*Deformation scale = 1*
+
+Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
+
 
 &nbsp;
 
