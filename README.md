@@ -182,6 +182,11 @@ This assignment was very fun and challenging for us. We took inspiration on this
 
 Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
 
+# Beam Iterations 
+
+![part 4 vonmises](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/14de4e65-28d1-414e-98be-78cb9bd7102c)
+
+Our original design needed a lot of work and was complicated to fix but we made it a lot better based on FEA. One problem we noticed with our original design was that it was very frail on the bottom so we added fillets to the base corner to help with strength. Another problem was the bend on the top of the beam so we added support beams going horizontal on the top to reduce stress. Finally, the first bracket from the holder had the most stress, to fix this we added more fillets to create strength and get rid of a hard edge. 
 
 &nbsp;
 
