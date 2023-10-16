@@ -143,6 +143,11 @@ For this assignment, we had to make an LED turn on whenever the MPU was at a 90-
 
 This assignment was very informative about batteries and not too difficult to work with the LED. For the code, I added onto the previous assignment and all I changed was adding the LED values and a new if and elif statement. For the if statement I used the line if z_acceleration < 0: this states that if the z_acceleration from this line of code, x_acceleration, y_acceleration, z_acceleration = acceleration (defining them to the MPU acceleration) is less than 0 then turn the LED on. This works because when the value is negative the MPU is turned 90 degrees or more and only not when it's facing upright. The elif statement (elif z_acceleration > 0:) says that when the value of z is positive or level then turn the LED off or else the LED will stay on forever. For the battery, no code is needed and we were given how to wire it to GND and the VSYS pin. Overall, this assignment was fairly simple but was a good introduction to the battery and helped me to understand tuples better. 
 
+## Crash Avoidance Part 3 (OLED Screen)
+
+### Assignment Description
+For this assignment, we had to print the X, Y, and Z angular velocities to an OLED screen and round to the 3rd decimal point. It also had to be powered by a battery and have an LED that turns on at 90 degrees.
+
 &nbsp;
 
 ## Onshape_Assignment_Template
