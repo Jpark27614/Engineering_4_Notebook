@@ -148,6 +148,15 @@ This assignment was very informative about batteries and not too difficult to wo
 ### Assignment Description
 For this assignment, we had to print the X, Y, and Z angular velocities to an OLED screen and round to the 3rd decimal point. It also had to be powered by a battery and have an LED that turns on at 90 degrees.
 
+### Evidence
+
+### Wiring 
+
+### Code
+
+### Reflection
+
+
 &nbsp;
 
 ## Onshape_Assignment_Template
