@@ -149,10 +149,14 @@ This assignment was very informative about batteries and not too difficult to wo
 For this assignment, we had to print the X, Y, and Z angular velocities to an OLED screen and round to the 3rd decimal point. It also had to be powered by a battery and have an LED that turns on at 90 degrees.
 
 ### Evidence
+![ezgif-1-88ec2a6e88](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/9b8b4aa4-f677-4c16-b8c0-17847d3cdbd6)
 
 ### Wiring 
+![IMG_20231017_141925](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/5c508ecd-3be2-48ac-a444-d3e5cd3f63d8)
 
 ### Code
+[Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_3)
+*From [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_OLED.py)*
 
 ### Reflection
 
