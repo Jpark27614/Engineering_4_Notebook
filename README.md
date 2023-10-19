@@ -13,7 +13,7 @@
 * [Crash Avoidance Part 3](#crash_avoidance_part_3_oled_screen)
 * [Beam](beam)
 * [Beam Part 3](beam_part_3)
-* [Beam Iteration](beam_iteration)
+* [Beam Iteration](beam_iterations)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
