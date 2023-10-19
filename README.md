@@ -11,9 +11,9 @@
 * [Crash Avoidance Part 1](#crash_avoidance_part_1_acceleration)
 * [Crash Avoidance Part 2](#crash_avoidance_part_2_light_and_power)
 * [Crash Avoidance Part 3](#crash_avoidance_part_3_oled_screen)
-* [Beam](beam)
-* [Beam Part 3](beam_part_3)
-* [Beam Iteration](beam_iterations)
+* [Beam](#beam)
+* [Beam Part 3](#beam_part_3)
+* [Beam Iteration](#beam_iterations)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
