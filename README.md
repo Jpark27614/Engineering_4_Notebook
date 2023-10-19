@@ -3,8 +3,8 @@
 &nbsp;
 
 ## Table of Contents
-* [LED Blink](#LED_Blink)
-* [Launchpad Part 1](#Launchpad_Part_1_(countdown))
+* [LED Blink](#led_blink)
+* [Launchpad Part 1](#launchpad_part_1_(countdown))
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
