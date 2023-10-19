@@ -13,7 +13,7 @@
 * [Crash Avoidance Part 3](#crash_avoidance_part_3_oled_screen)
 * [Beam](beam)
 * [Beam Part 3](beam_part_3)
-* [Beam Iteration](Beam_Iterations)
+* [Beam Iteration](beam_iterations)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -211,7 +211,7 @@ This assignment was very fun and challenging for us. We took inspiration on this
 
 Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
 
-# Beam_Iterations 
+## Beam_Iterations 
 
 ![part 4 vonmises](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/14de4e65-28d1-414e-98be-78cb9bd7102c)
 
