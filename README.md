@@ -9,7 +9,7 @@
 
 &nbsp;
 
-## LED Blink
+## LED_Blink
 
 ### Assignment Description
 
@@ -31,7 +31,7 @@ No wiring
 
 This assignment was a good reintroduction to circuit python for me. It reminded me of the basic lines of code like time.sleep() and the different variables to import like board. It was also a great tutorial to pushing to github which last year I didn't fully know how to do. The tutorial explains that you have to save the code with CTR S then in Explorer click the plus and finally use the drop down next to commit and press "commit and push". Overall I really enjoyed this assignment because it was fairly simple but informative after a summer of not coding.
 
-## Launchpad Part 1 (countdown)
+## Launchpad_Part_1_(countdown)
 
 ### Assignment Description
 We were assigned to make a countdown from 10 in the terminal and when it gets to 1 it says "Liftoff"
