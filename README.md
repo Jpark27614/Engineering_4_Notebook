@@ -9,6 +9,11 @@
 * [Launchpad Part 3](#launchpad_part_3_button)
 * [Launchpad Part 4](#launchpad_part_4_servo)
 * [Crash Avoidance Part 1](#crash_avoidance_part_1_acceleration)
+* [Crash Avoidance Part 2](#crash_avoidance_part_2_light_and_power)
+* [Crash Avoidance Part 3](#crash_avoidance_part_3_oled_screen)
+* [Beam](beam)
+* [Beam Part 3](beam_part_3)
+* [Beam Iteration](beam_iteration)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -130,7 +135,7 @@ Got help from [Mason Divers](https://github.com/masond552/Engineering_4_Notebook
 
 This assignment was relatively difficult but a good introduction to the MPU. You have to use i2c = busio.I2C(scl_pin, sda_pin) to link the code to the MPU and to assign the SCL and SDA pin you have to use SCL/SDA = board.x. The next line of code is acceleration = mpu.acceleration this just gives a simpler name to the MPU acceleration. The most complicated line of code for this assignment was print(f"acceleration m/s^2- X:{round(acceleration[0],3)} Y:{round(acceleration[1],3)} Z:{round(acceleration[2]),3}" ) this command uses a tuple with the [0],[1],[2] to separate them. The round and ,3 rounds the number to the thousands place so the terminal is more organized. Overall, this assignment was very challenging for me because code is not my strong suit and I did need assistance from Mason.
 
-## Crash Avoidance Part 2 (light and power)
+## Crash_Avoidance_Part_2_(light and power)
 
 ### Assignment Description
 For this assignment, we had to make an LED turn on whenever the MPU was at a 90-degree angle.
@@ -148,7 +153,7 @@ For this assignment, we had to make an LED turn on whenever the MPU was at a 90-
 
 This assignment was very informative about batteries and not too difficult to work with the LED. For the code, I added onto the previous assignment and all I changed was adding the LED values and a new if and elif statement. For the if statement I used the line if z_acceleration < 0: this states that if the z_acceleration from this line of code, x_acceleration, y_acceleration, z_acceleration = acceleration (defining them to the MPU acceleration) is less than 0 then turn the LED on. This works because when the value is negative the MPU is turned 90 degrees or more and only not when it's facing upright. The elif statement (elif z_acceleration > 0:) says that when the value of z is positive or level then turn the LED off or else the LED will stay on forever. For the battery, no code is needed and we were given how to wire it to GND and the VSYS pin. Overall, this assignment was fairly simple but was a good introduction to the battery and helped me to understand tuples better. 
 
-## Crash Avoidance Part 3 (OLED Screen)
+## Crash_Avoidance_Part_3_(OLED Screen)
 
 ### Assignment Description
 For this assignment, we had to print the X, Y, and Z angular velocities to an OLED screen and round to the 3rd decimal point. It also had to be powered by a battery and have an LED that turns on at 90 degrees.
@@ -198,7 +203,7 @@ This assignment explores engineering tradeoffs by designing a 3D-printed beam to
 
 This assignment was very fun and challenging for us. We took inspiration on this design from the I beam which is the strongest beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
 
-## Beam Part 3 
+## Beam_Part_3 
 ![Assembly 1 (2)](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/52434908-00ab-4d5e-bc0c-1c5b10ab8dfd)
 
 ![Assembly 1](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/b75d61dd-dec5-4f03-b979-d2e7e029005f)
@@ -206,7 +211,7 @@ This assignment was very fun and challenging for us. We took inspiration on this
 
 Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
 
-# Beam Iterations 
+# Beam_Iterations 
 
 ![part 4 vonmises](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/14de4e65-28d1-414e-98be-78cb9bd7102c)
 
