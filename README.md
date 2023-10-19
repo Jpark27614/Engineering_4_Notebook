@@ -5,6 +5,10 @@
 ## Table of Contents
 * [LED Blink](#led_blink)
 * [Launchpad Part 1](#launchpad_part_1_countdown)
+* [Launchpad Part 2](#launchpad_part_2_led)
+* [Launchpad Part 3](#launchpad_part_3_button)
+* [Launchpad Part 4](#launchpad_part_4_servo)
+* [Crash Avoidance Part 1](#crash_avoidance_part_1_acceleration)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -49,7 +53,7 @@ No wiring
 
 This assignment was simple and informative for using Pico and the terminal. I learned that to run in Pico you have to click on the code then save (CTR s) and to run you click (CTR d), I was a little confused because I was pressing F5 to run it and it directed my to the circuit python terminal instead of the pico one. 1 piece of code I learned was the range line (for x in range(0,0,0):) I used this line to set the constraints for the countdown (1-10). So for the first blank, you put in the number  you want to start with like 10, for the second blank you want to put in the number 1 less than the one you want it to stop at, so if I wanted to stop it at 1 I would put 0. Finally, for the last one, it is the number from which you want to count up or down so I wanted to count by 1 so I had to put -1 and if you don't put anything in the blank it will count up from 1. Overall this assignment wasn't too difficult and has a good explanation of what the range command did.
 
-## Launchpad Part 2 (LED)
+## Launchpad_Part_2_(LED)
 
 ### Assignment Description
 For this assignment, we had to add on to the previous countdown but make a red LED blink when it counted down and a blue light blink when it said "Liftoff".
@@ -67,7 +71,7 @@ For this assignment, we had to add on to the previous countdown but make a red L
 
 This assignment was a good next step and reintroduction to LED's. One problem I ran into with this assignment was that I had put the "liftoff" after the loop but for the LED to turn on when it printed liftoff, I had to put it in a if statement. The if statement says that "if x <= 1:" if x is less than 1 then print liftoff and turn on the blue LED. This was also a good recap for the LED code with the line "ledr = digitalio.DigitalInOut(board.GP15)" and "ledr.direction = digitalio.Direction.OUTPUT" connecting the LED to the ground pin and stating the LED as an output. Overall this was a good and simple assignment that helped me better understand Circuit Python.
 
-## Launchpad Part 3 (button)
+## Launchpad_Part_3_(button)
 
 ### Assignment Description 
 For this assignment, we had to make the countdown start when we pressed a button.
@@ -86,7 +90,7 @@ For this assignment, we had to make the countdown start when we pressed a button
 ### Reflection 
 This assignment was a good introduction to buttons and was relatively easy. A couple of necessary lines for the button include "button = digitalio.DigitalInOut(board.GP17)", "button.value =", and "button.pull = digitalio.Pull.DOWN". For the pull-down it means that if the button is pressed the button value equals True and that you need to connect it to the 3v3 pin, the opposite is true for pull up where when the button is pressed it equals false and you need to be connected to GND. Another thing I learned is that to print a button value or read one you have to use the line button.value which seems obvious but I was just setting button = to something and it wasn't working. Overall, this assignment was a good introduction back to buttons.
 
-## Launchpad Part 4 (Servo)
+## Launchpad_Part_4_(Servo)
 
 ### Assignment Description
 For this assignment, we had to make a servo move 180 degrees after it prints liftoff to simulate a launch tower disconnecting
@@ -105,7 +109,7 @@ For this assignment, we had to make a servo move 180 degrees after it prints lif
 
 This assignment was a good intro to motors and libraries. In this assignment, I learned how to import libraries to circuit python, first, you have to download the library bundle and unzip the file (Extract all). Next, you find the library you want, in this case, "adafruit_motor". You then have to import it into the circuit python file in the library folder. I also learned the servo commands you need for circuit python which are pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle =2** 15, frequency = 50), servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500), and servo1.angle = x. The PWMio allows you to control pins with pulse width modulation in this case GP0 and setting the frequency to 50. servo.Servo sets the maximum and minimum pulse of the servo so it does not go further than a certain point. Finally, servo1.angle sets the angle of the servo so if I set x to 180 it would go from whatever angle it's at and go to 180.
 
-## Crash Avoidance Part 1 (Acceleration)
+## Crash_Avoidance_Part_1_(Acceleration)
 
 ### Assignment Description
 For this assignment, we had to print out the X, Y, and Z values from where the position the MPU was. 
