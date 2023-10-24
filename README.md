@@ -43,7 +43,7 @@ This assignment was a good reintroduction to circuit python for me. It reminded 
 ## Launchpad_Part_1_(countdown)
 
 ### Assignment Description
-We were assigned to make a countdown from 10 in the terminal and when it gets to 1 it says "Liftoff"
+We were assigned to make a countdown from 10 in the terminal and when it gets to 1 it prints "Liftoff".
 
 ### Evidence 
 ![ezgif-4-5c041d7028](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/6c06b48a-1de6-400c-8a44-48039b61105d)
@@ -56,7 +56,7 @@ No wiring
 
 ### Reflection
 
-This assignment was simple and informative for using Pico and the terminal. I learned that to run in Pico you have to click on the code then save (CTR s) and to run you click (CTR d), I was a little confused because I was pressing F5 to run it and it directed my to the circuit python terminal instead of the pico one. 1 piece of code I learned was the range line (for x in range(0,0,0):) I used this line to set the constraints for the countdown (1-10). So for the first blank, you put in the number  you want to start with like 10, for the second blank you want to put in the number 1 less than the one you want it to stop at, so if I wanted to stop it at 1 I would put 0. Finally, for the last one, it is the number from which you want to count up or down so I wanted to count by 1 so I had to put -1 and if you don't put anything in the blank it will count up from 1. Overall this assignment wasn't too difficult and has a good explanation of what the range command did.
+This assignment was simple and informative for using Pico and the terminal. I learned that to run in Pico you have to click on the code then save (CTR s) and to run you click (CTR d), I was a little confused because I was pressing F5 to run it and it directed me to the circuit python terminal instead of the pico one. 1 piece of code I learned was the range line (for x in range(0,0,0):) I used this line to set the constraints for the countdown (1-10). So for the first blank, you put in the number  you want to start with like 10, for the second blank you want to put in the number 1 less than the one you want it to stop at, so if I wanted to stop it at 1 I would put 0 so it would look like for x in range(10,0,-1):. Finally, for the last one, it is the number from which you want to count up or down so I wanted to count by 1 so I had to put -1 and if you don't put anything in the blank it will count up from 1. Overall this assignment wasn't too difficult and has a good explanation of what the range command did.
 
 ## Launchpad_Part_2_(LED)
 
@@ -74,12 +74,12 @@ For this assignment, we had to add on to the previous countdown but make a red L
 
 ### Reflection
 
-This assignment was a good next step and reintroduction to LED's. One problem I ran into with this assignment was that I had put the "liftoff" after the loop but for the LED to turn on when it printed liftoff, I had to put it in a if statement. The if statement says that "if x <= 1:" if x is less than 1 then print liftoff and turn on the blue LED. This was also a good recap for the LED code with the line "ledr = digitalio.DigitalInOut(board.GP15)" and "ledr.direction = digitalio.Direction.OUTPUT" connecting the LED to the ground pin and stating the LED as an output. Overall this was a good and simple assignment that helped me better understand Circuit Python.
+This assignment was a good next step and reintroduction to LED's for me. One problem I ran into with this assignment was that I had put the "liftoff" after the loop but for the LED to turn on when it printed liftoff, I had to put it in an if statement. The if statement says that "if x <= 1:" if x is less than or equal to 1 then print liftoff and turn on the blue LED. This was also a good recap for the LED code with the line "ledr = digitalio.DigitalInOut(board.GP15)" and "ledr.direction = digitalio.Direction.OUTPUT" connecting the LED to the ground pin and stating the LED as an output. Overall this was a good and simple assignment that helped me better understand Circuit Python.
 
 ## Launchpad_Part_3_(button)
 
 ### Assignment Description 
-For this assignment, we had to make the countdown start when we pressed a button.
+For this assignment, we had to make the previous countdown requirements start when we pressed a button.
 
 ### Evidence
 ![Evidence](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/images/ezgif.com-optimize.gif)
@@ -93,12 +93,12 @@ For this assignment, we had to make the countdown start when we pressed a button
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_Part_3)
 
 ### Reflection 
-This assignment was a good introduction to buttons and was relatively easy. A couple of necessary lines for the button include "button = digitalio.DigitalInOut(board.GP17)", "button.value =", and "button.pull = digitalio.Pull.DOWN". For the pull-down it means that if the button is pressed the button value equals True and that you need to connect it to the 3v3 pin, the opposite is true for pull up where when the button is pressed it equals false and you need to be connected to GND. Another thing I learned is that to print a button value or read one you have to use the line button.value which seems obvious but I was just setting button = to something and it wasn't working. Overall, this assignment was a good introduction back to buttons.
+This assignment was a good reintroduction to buttons and was relatively easy. A couple of necessary lines for the button include "button = digitalio.DigitalInOut(board.GP17)", "button.value =", and "button.pull = digitalio.Pull.DOWN". For the pull-down it means that if the button is pressed the button value equals True and that you need to connect it to the 3v3 pin, the opposite is true for pull up where when the button is pressed it equals False and you need to be connected to GND. Another thing I learned is that to print a button value or read one you have to use the line button.value which seems obvious but I was just setting button = to something and it wasn't working. Overall, this assignment helped my understanding of buttons.
 
 ## Launchpad_Part_4_(Servo)
 
 ### Assignment Description
-For this assignment, we had to make a servo move 180 degrees after it prints liftoff to simulate a launch tower disconnecting
+For this assignment, we had to make a servo move 180 degrees after it the terminal prints liftoff to simulate a launch tower disconnecting from a rocket.
 
 ### Evidence 
 
@@ -117,7 +117,7 @@ This assignment was a good intro to motors and libraries. In this assignment, I 
 ## Crash_Avoidance_Part_1_(Acceleration)
 
 ### Assignment Description
-For this assignment, we had to print out the X, Y, and Z values from where the position the MPU was. 
+For this assignment, we had to print out the X, Y, and Z values from where the position of the MPU was. 
 
 ### Evidence 
 ![ezgif com-video-to-gif (4)](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/932d6412-8a23-4459-9d42-9078a91d5c87)
@@ -215,7 +215,7 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 
 ![part 4 vonmises](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/14de4e65-28d1-414e-98be-78cb9bd7102c)
 
-Our original design needed a lot of work and was complicated to fix but we made it a lot better based on FEA. One problem we noticed with our original design was that it was very frail on the bottom so we added fillets to the base corner to help with strength. Another problem was the bend on the top of the beam so we added support beams going horizontal on the top to reduce stress. Finally, the first bracket from the holder had the most stress, to fix this we added more fillets to create strength and get rid of a hard edge. 
+Our original design needed a lot of work and was complicated to fix but we made it a lot better based on FEA. One problem we noticed with our original design was that it was very frail on the bottom so we added fillets to the base corner to help with strength. Another problem was the bend on the top of the beam so we added support beams going horizontal on the top to reduce stress. Additionally, on the first design, we had a lot of overhang at the top of the Y beam which we were confused by because the angle was 45 but the holes were well over. Finally, the first bracket from the holder had the most stress, to fix this we added more fillets to create strength and get rid of a hard edge. 
 
 &nbsp;
 
