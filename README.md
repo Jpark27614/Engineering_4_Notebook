@@ -174,6 +174,16 @@ This assignment was challenging for me and I didn't have time to finish the code
 
 ## Landing_Area_Part_1_(Functions)
 
+### Assignment Description
+For this assignment, we had to write code to calculate the area of a triangle given 3 coordinates. We also had to use a function to determine the triangle area and print an error code when letters or improper format are put into the coordinates. 
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
 
 &nbsp;
 
