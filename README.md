@@ -11,6 +11,7 @@
 * [Crash Avoidance Part 1](#crash_avoidance_part_1_acceleration)
 * [Crash Avoidance Part 2](#crash_avoidance_part_2_light_and_power)
 * [Crash Avoidance Part 3](#crash_avoidance_part_3_oled_screen)
+* [Landing Area Part 1](#Landing_Area_Part_1_Functions)
 * [Beam](#beam)
 * [Beam Part 3](#beam_part_3)
 * [Beam Iteration](#beam_iterations)
@@ -170,6 +171,8 @@ For this assignment, we had to print the X, Y, and Z angular velocities to an OL
 
 ### Reflection
 This assignment was challenging for me and I didn't have time to finish the code so I used Masons. I do understand some lines of code, however, like text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5) which assigns the position, font, and color of the text on the OLED. These 2 lines of code, angular_velocity = mpu.gyro and x_angular_velocity, y_angular_velocity, z_angular_velocity = angular_velocity makes it read the angular velocity and assign the angular velocity and the x, y, and z values. Finally, angular_velocity_text = f"X: {x_angular_velocity:.3f},\n Y: {y_angular_velocity:.3f},\n Z: {z_angular_velocity:.3f}", led_status = "LED Status: ON" if led.value else "LED Status: OFF", and text_area.text = angular_velocity_text + "\n" + led_status are commands to print the angular velocity and LED status onto the OLED. Also to avoid OLED flickering you have to use a time.sleep(0.1). Overall, it is too bad I couldn't get to finish this assignment but it was a good lesson on time management especially since I'm not the best at code but I still learned a little bit from the assignment. 
+
+## Landing_Area_Part_1_(Functions)
 
 
 &nbsp;
