@@ -179,10 +179,13 @@ This assignment was challenging for me and I didn't have time to finish the code
 For this assignment, we had to write code to calculate the area of a triangle given 3 coordinates. We also had to use a function to determine the triangle area and print an error code when letters or improper format are put into the coordinates. 
 
 ### Evidence
+![ezgif-5-b6aa16a8f6](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/95e079a0-125c-4992-91f4-c59ce1418262)
 
 ### Wiring
+No Wiring.
 
 ### Code
+
 
 ### Reflection
 
