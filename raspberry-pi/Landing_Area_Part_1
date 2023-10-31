@@ -1,23 +1,21 @@
 
-def calculate_triangle_area(x1,y1,x2,y2,x3,y3):
-    area = ((1/2) * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))))
-    return area
+def calculate_triangle_area(x1,y1,x2,y2,x3,y3): #defines the triangle area with the variables of the calculation 
+    return abs((.5) * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2)))) #calculates the triangle area 
 
-def triangle_area():
+def triangle_area(): #function for the input of the coordinates 
     while True: 
         try:
             x1,y1 = map(float, input("enter the first coordinated (x,y):").split(","))
             x2,y2 = map(float, input("enter the second coordinated (x,y):").split(","))
             x3,y3 = map(float, input("enter the third coordinated (x,y):").split(","))
             return (x1,y1,x2,y2,x3,y3)
-        except:
+        except ValueError: #if the input is not in proper syntax prints the error code 
             print("Invalid input please use x,y syntax")
 
 while True:
-    x1,y1, x2,y2, x3,y3 = triangle_area()
-    area = calculate_triangle_area(x1,y1,x2,y2,x3,y3)
-    if area == 0:
-        print(f"the area of the triangle with vertices({x1,y1})({x2,y2})({x3,y3})is({area})square k")
-    
+    x1,y1, x2,y2, x3,y3 = triangle_area() #identifies values as part of the triangle area inputs 
+    if (x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))!=0: #checks if points for a valid triangle 
+        area = calculate_triangle_area(x1, y1, x2, y2, x3, y3)
+        print(f"the area of the triangle with vertices({x1,y1})({x2,y2})({x3,y3})is {area} square k") #prints area 
     else:
-        print("These points are an invalid triangle. Please use proper x,y syntax")
+        print("These points are an invalid triangle. Please use proper x,y syntax") #prints error 
