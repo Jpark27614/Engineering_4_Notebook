@@ -185,9 +185,12 @@ For this assignment, we had to write code to calculate the area of a triangle gi
 No Wiring.
 
 ### Code
-
+(Code)[https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_1]
+help from (Mason Divers)[https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py] 
 
 ### Reflection
+This assignment was very difficult for me since it incorporated math and code, and I'm ok at math but not so good at code. I had to look at Masons code to fully understand the code (I asked his permission) which helped me a lot to understand some of the code. For example, I learned that "def calculate_triangle_area(x1,y1,x2,y2,x3,y3):" defines the variables used for the calculation of the triangle. Another line is "return abs((.5) * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))))" which calculates the area of the triangle with the inputted points using a math equation. The line "x1,y1 = map(float, input("enter the first coordinated (x,y):").split(","))" defines the x1 and y1 as an input for these coordinates and splits them at the comma for the input syntax. Another line " x1,y1, x2,y2, x3,y3 = triangle_area()" identifies the variables as part of the triangle area. Next, "  if (x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))!=0: " checks if the points given make a valid triangle plugging them into the equation. Finally, If it's valid it prints the area and coordinates, and if not it prints error. 
+
 
 &nbsp;
 
