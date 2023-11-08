@@ -202,6 +202,9 @@ For this assignment, we had to make a triangle print to the OLED screen as well 
 
 ### Wiring
 
+![IMG_20231017_141925](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/5c508ecd-3be2-48ac-a444-d3e5cd3f63d8)
+*Same as Crash Avoidance Part 3 (OLED)*
+
 ### Code
 
 ### Reflection
