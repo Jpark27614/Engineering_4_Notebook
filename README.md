@@ -16,6 +16,7 @@
 * [Beam Part 3](#beam_part_3)
 * [Beam Iteration](#beam_iterations)
 * [Landing Area Part 1](#Landing_area_part_1_functions)
+* [Landing Area Part 2](#Landing_area_part_2_plotting)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -185,7 +186,27 @@ For this assignment, we had to write code to calculate the area of a triangle gi
 No Wiring.
 
 ### Code
+(Code)[https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_1]
+help from (Mason Divers)[https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py] 
 
+### Reflection
+This assignment was very difficult for me since it incorporated math and code, and I'm ok at math but not so good at code. I had to look at Masons code to fully understand the code (I asked his permission) which helped me a lot to understand some of the code. For example, I learned that "def calculate_triangle_area(x1,y1,x2,y2,x3,y3):" defines the variables used for the calculation of the triangle. Another line is "return abs((.5) * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))))" which calculates the area of the triangle with the inputted points using a math equation. The line "x1,y1 = map(float, input("enter the first coordinated (x,y):").split(","))" defines the x1 and y1 as an input for these coordinates and splits them at the comma for the input syntax. Another line " x1,y1, x2,y2, x3,y3 = triangle_area()" identifies the variables as part of the triangle area. Next, "  if (x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))!=0: " checks if the points given make a valid triangle plugging them into the equation. Finally, If it's valid it prints the area and coordinates, and if not it prints an error. 
+
+## Landing_Area_Part_2_(Plotting)
+
+### Assignment Description 
+
+For this assignment, we had to make a triangle print to the OLED screen as well as find the area given 3 points. We also had to print the triangle relative to a base location.
+
+### Evidence
+
+### Wiring
+
+![IMG_20231017_141925](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/5c508ecd-3be2-48ac-a444-d3e5cd3f63d8)
+ 
+ *Same as Crash Avoidance Part 3 (OLED)*
+
+### Code
 
 ### Reflection
 
