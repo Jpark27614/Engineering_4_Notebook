@@ -212,7 +212,7 @@ For this assignment, we had to make a triangle print to the OLED screen as well 
 
 [Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_2) 
 
-*Code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt2_Plotting.py) *same code different commenting**
+*Code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt2_Plotting.py) *same code different commenting* *
 
 ### Reflection
 
