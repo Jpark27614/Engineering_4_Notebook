@@ -186,8 +186,8 @@ For this assignment, we had to write code to calculate the area of a triangle gi
 No Wiring.
 
 ### Code
-(Code)[https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_1]
-help from (Mason Divers)[https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py] 
+[Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_1)
+*help from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py)*
 
 ### Reflection
 This assignment was very difficult for me since it incorporated math and code, and I'm ok at math but not so good at code. I had to look at Masons code to fully understand the code (I asked his permission) which helped me a lot to understand some of the code. For example, I learned that "def calculate_triangle_area(x1,y1,x2,y2,x3,y3):" defines the variables used for the calculation of the triangle. Another line is "return abs((.5) * ((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))))" which calculates the area of the triangle with the inputted points using a math equation. The line "x1,y1 = map(float, input("enter the first coordinated (x,y):").split(","))" defines the x1 and y1 as an input for these coordinates and splits them at the comma for the input syntax. Another line " x1,y1, x2,y2, x3,y3 = triangle_area()" identifies the variables as part of the triangle area. Next, "  if (x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))!=0: " checks if the points given make a valid triangle plugging them into the equation. Finally, If it's valid it prints the area and coordinates, and if not it prints an error. 
@@ -200,6 +200,8 @@ For this assignment, we had to make a triangle print to the OLED screen as well 
 
 ### Evidence
 
+![IMG_20231108_135331](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/e264a20d-ca97-49f3-9eeb-3ce9502f4908)
+
 ### Wiring
 
 ![IMG_20231017_141925](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/5c508ecd-3be2-48ac-a444-d3e5cd3f63d8)
@@ -208,7 +210,14 @@ For this assignment, we had to make a triangle print to the OLED screen as well 
 
 ### Code
 
+[Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Part_2) 
+
+*Code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt2_Plotting.py) (same code different commenting)*
+
 ### Reflection
+
+This assignment was very challenging for me and I had to use Mason's code (with permission). However, I did try to comprehend the code that I used, for example, the lines "origin_x = 64" and "origin_y = 32" set the coordinate for the origin on the OLED screen because the point 0,0 would be in the top left corner of the OLED and not the middle. Another line of code is "def draw_line(x1, y1, x2, y2, color=0xFFFF00):" this creates a function with the variables x1,y1,x2, and y2 and sets the color of the line. The next line of code in this function is "line = Line(int(x1), int(y1), int(x2), int(y2), color=color)," this defines the line and its integers of x1&2 and y1&2 and also uses the color line to create a white line. For this function its, "def draw_triangle(x1, y1, x2, y2, x3, y3, origin_x, origin_y):" which defines how to draw the triangle including the variables x1&2, y1&2, and the origins. Next, "triangle = Triangle(int(origin_x + x1), int(origin_y - y1)," defines the triangle with how to place the points of input by displacing them with addition, from the origin (there is more with x2&3 and y2&3 but it would take up space). Finally, in the while true the lines, "splash.append(draw_triangle(x1, y1, x2, y2, x3, y3, origin_x, origin_y))" and "splash.append(draw_circle(origin_x, origin_y, 2))" and "splash.append(draw_line(0, 32, 128, 32))" which draws the triangle, circle, and axes using the functions. Overall, this assignment made me more aware of the math that is needed in code and OLED screens.
+
 
 &nbsp;
 
