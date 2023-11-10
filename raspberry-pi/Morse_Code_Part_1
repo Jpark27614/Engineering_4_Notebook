@@ -17,27 +17,11 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-'}
 
-# def decode(MorseCode):
-#     MorseCodeDict=MorseCode.split('')
-#     output = []
-#     for Morse in MorseCodeDict
-#         try:
-#             output.append(MORSE_CODE[Morse])
-#         except:
-#             if Morse == '':
-#             output.append('')
-#         else:
-#             pass
-#     return ''.join(output)
-
-
-for letter in message:
-
-    if letter == "-q":
-        break
-
-while True:
-    try:
-            MORSE_CODE = map(float, input("Enter Morse Code message, or enter -q").split("''"))
-        except = -q: #if the input is not in proper syntax prints the error code 
+def Morse_Input():
+    while True:
+        try:
+            MORSE_CODE = map(float, input("Enter Morse Code message, or enter -q:").split("''")) 
+            print(MORSE_CODE)
+        except:
+            MORSE_CODE = "-q"
         return MORSE_CODE
