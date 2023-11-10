@@ -1,7 +1,6 @@
 #type:ignore
 import time
 
-
 MORSE_CODE = { 'A':'.-', 'B':'-...',
     'C':'-.-.', 'D':'-..', 'E':'.',
     'F':'..-.', 'G':'--.', 'H':'....',
@@ -29,9 +28,16 @@ def decode(MorseCode):
             output.append('')
         else:
             pass
-return ''.join(output)
+    return ''.join(output)
 
 
 for letter in message:
 
     if letter == "-q":
+        break
+
+while True:
+    try:
+            MORSE_CODE = map(float, input("Enter Morse Code message, or enter -q").split("''"))
+        except = -q: #if the input is not in proper syntax prints the error code 
+        return MORSE_CODE
