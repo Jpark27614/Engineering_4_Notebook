@@ -17,18 +17,18 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-'}
 
-def decode(MorseCode):
-    MorseCodeDict=MorseCode.split('')
-    output = []
-    for Morse in MorseCodeDict
-        try:
-            output.append(MORSE_CODE[Morse])
-        except:
-            if Morse == '':
-            output.append('')
-        else:
-            pass
-    return ''.join(output)
+# def decode(MorseCode):
+#     MorseCodeDict=MorseCode.split('')
+#     output = []
+#     for Morse in MorseCodeDict
+#         try:
+#             output.append(MORSE_CODE[Morse])
+#         except:
+#             if Morse == '':
+#             output.append('')
+#         else:
+#             pass
+#     return ''.join(output)
 
 
 for letter in message:
