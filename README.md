@@ -232,7 +232,7 @@ This assignment was very challenging for me and I had to use Mason's code (with 
 ### Code
 
 [Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Part_1)
-*code from [online](https://codepal.ai/code-generator/query/9UmXp1um/python-translate-text-to-morse-code) (but I half of it) help from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook) and [Paul Weder](https://github.com/Pweder69/Engineering_4_Notebook)*
+*code from [online](https://codepal.ai/code-generator/query/9UmXp1um/python-translate-text-to-morse-code) (but I wrote half of it) help from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook) and [Paul Weder](https://github.com/Pweder69/Engineering_4_Notebook)*
 
 ### Reflection
 
