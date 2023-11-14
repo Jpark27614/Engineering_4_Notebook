@@ -220,6 +220,18 @@ This assignment was very challenging for me and I had to use Mason's code (with 
 
 ## Morse_Code_Part_1_(Translation)
 
+### Assignment Description
+
+### Evidence
+
+![ezgif-4-ba0309d29c](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/c7651c3d-772e-45bc-8b06-3b787cbfd0d1)
+
+### Wiring
+
+### Code
+
+### Reflection
+
 &nbsp;
 
 ## Onshape_Assignment_Template
