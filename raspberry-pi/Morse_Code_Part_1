@@ -1,9 +1,9 @@
-#type:ignor
+#type:ignore
 class MorseCodeTranslator:
  
     def __init__(self):
       
-        self.morse_code_dict = {
+        self.morse_code_dict = { #Morse code dictionart 
             'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....',
             'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
             'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
@@ -16,23 +16,23 @@ class MorseCodeTranslator:
  
     def translate_to_morse(self, text: str) -> str:
 
-        text = text.upper()
+        text = text.upper() #makes all inputed text upper case for dictionary
  
         morse_code = [self.morse_code_dict.get(char, '') for char in text]
 
         morse_code_text = ' '.join(morse_code)
         if text == "":
-            morse_code += "/"
+            morse_code += "/" #when there is a space it fills it with a /
         return morse_code_text
  
 while True:
     translator = MorseCodeTranslator()
-    text = input("Enter Morse message:")
-    morse_code = translator.translate_to_morse(text)
+    text = input("Enter Morse message:") #defines text as an input 
+    morse_code = translator.translate_to_morse(text) #translates input into morse code 
 
-    if text == "-q":
+    if text == "-q": # if statement for -q quit system 
         print("invalid input")
-        break
+        break # breaks loop
 
-    else:
+    else: #if text doesn't equal -q then print the translation 
         print(f"Morse Code: {morse_code}")
