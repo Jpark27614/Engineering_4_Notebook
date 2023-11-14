@@ -222,6 +222,7 @@ This assignment was very challenging for me and I had to use Mason's code (with 
 
 ### Assignment Description
 
+
 ### Evidence
 
 ![ezgif-4-ba0309d29c](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/c7651c3d-772e-45bc-8b06-3b787cbfd0d1)
@@ -229,6 +230,9 @@ This assignment was very challenging for me and I had to use Mason's code (with 
 ### Wiring
 
 ### Code
+
+[Code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Part_1)
+*code from [online](https://codepal.ai/code-generator/query/9UmXp1um/python-translate-text-to-morse-code) (but I half of it) help from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook) and [Paul Weder](https://github.com/Pweder69/Engineering_4_Notebook)*
 
 ### Reflection
 
