@@ -1,39 +1,35 @@
-#type:ignore
-import time
+#type:ignor
+class MorseCodeTranslator:
+ 
+    def __init__(self):
+      
+        self.morse_code_dict = {
+            'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....',
+            'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
+            'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
+            'Y': '-.--', 'Z': '--..', '0': '-----', '1': '.----', '2': '..---', '3': '...--', '4': '....-',
+            '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.', '.': '.-.-.-', ',': '--..--',
+            '?': '..--..', "'": '.----.', '!': '-.-.--', '/': '-..-.', '(': '-.--.', ')': '-.--.-', '&': '.-...',
+            ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-', '_': '..--.-', '"': '.-..-.',
+            '$': '...-..-', '@': '.--.-.', ' ': '/'
+        }
+ 
+    def translate_to_morse(self, text: str) -> str:
 
-def Input():
-    message = input("Enter Morse Code message, or enter -q:")
-    message = message.upper()
+        text = text.upper()
+ 
+        morse_code = [self.morse_code_dict.get(char, '') for char in text]
 
-    codeDict = dict()
-    
-    i=0
-
-    try: 
-        while(0 < len(message)):
-            if (message[0] !=""):
-                print(codeDict[message[0]], end = "")
-            else:
-                print("/", end = "")
-            i += 1
-    except: 
-        message = "-q"
+        morse_code_text = ' '.join(morse_code)
+ 
+        return morse_code_text
+ 
+while True:
+    translator = MorseCodeTranslator()
+    text = input("Enter Morse message:")
+    morse_code = translator.translate_to_morse(text)
+ 
+    if morse_code == "-q":
         break
-
-def dict():
-    MORSE_CODE = { 'A':'.-', 'B':'-...',
-        'C':'-.-.', 'D':'-..', 'E':'.',
-        'F':'..-.', 'G':'--.', 'H':'....',
-        'I':'..', 'J':'.---', 'K':'-.-',
-        'L':'.-..', 'M':'--', 'N':'-.',
-        'O':'---', 'P':'.--.', 'Q':'--.-',
-        'R':'.-.', 'S':'...', 'T':'-',
-        'U':'..-', 'V':'...-', 'W':'.--',
-        'X':'-..-', 'Y':'-.--', 'Z':'--..',
-        '1':'.----', '2':'..---', '3':'...--',
-        '4':'....-', '5':'.....', '6':'-....',
-        '7':'--...', '8':'---..', '9':'----.',
-        '0':'-----', ', ':'--..--', '.':'.-.-.-',
-        '?':'..--..', '/':'-..-.', '-':'-....-',
-        '(':'-.--.', ')':'-.--.-'}
-    return MORSE_CODE 
+    else:
+        print(f"Morse Code: {morse_code}")
