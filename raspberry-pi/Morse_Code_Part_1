@@ -21,15 +21,18 @@ class MorseCodeTranslator:
         morse_code = [self.morse_code_dict.get(char, '') for char in text]
 
         morse_code_text = ' '.join(morse_code)
- 
+        if text == "":
+            morse_code += "/"
         return morse_code_text
  
 while True:
     translator = MorseCodeTranslator()
     text = input("Enter Morse message:")
     morse_code = translator.translate_to_morse(text)
- 
-    if morse_code == "-q":
+
+    if text == "-q":
+        print("invalid input")
         break
+
     else:
         print(f"Morse Code: {morse_code}")
