@@ -222,12 +222,14 @@ This assignment was very challenging for me and I had to use Mason's code (with 
 
 ### Assignment Description
 
+For this assignment, we had to make a translator to Morse code and make it quit when we put in "-q". We also had to make the spaces between the words a slash. 
 
 ### Evidence
 
 ![ezgif-4-ba0309d29c](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/c7651c3d-772e-45bc-8b06-3b787cbfd0d1)
 
 ### Wiring
+*No wiring*
 
 ### Code
 
