@@ -1,4 +1,11 @@
 #type:ignore
+import board
+import digitalio
+import time 
+import time.sleep
+led = digitalio.DigitalInOut(board.LED) #assigning "led" to mean the LED on the board
+led.direction = digitalio.Direction.OUTPUT 
+
 class MorseCodeTranslator:
  
     def __init__(self):
@@ -36,3 +43,7 @@ while True:
 
     else: #if text doesn't equal -q then print the translation 
         print(f"Morse Code: {morse_code}")
+
+    if morse_code = ".":
+        led.value = True
+        time.sleep(.5)
