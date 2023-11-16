@@ -2,15 +2,14 @@
 import board
 import digitalio
 import time 
-import time.sleep
-led = digitalio.DigitalInOut(board.LED) #assigning "led" to mean the LED on the board
-led.direction = digitalio.Direction.OUTPUT 
+ledr = digitalio.DigitalInOut(board.GP16)
+ledr.direction = digitalio.Direction.OUTPUT 
 
 class MorseCodeTranslator:
  
     def __init__(self):
       
-        self.morse_code_dict = { #Morse code dictionart 
+        self.morse_code_dict = { #Morse code dictionary
             'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....',
             'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
             'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
@@ -31,11 +30,12 @@ class MorseCodeTranslator:
         if text == "":
             morse_code += "/" #when there is a space it fills it with a /
         return morse_code_text
- 
+
 while True:
     translator = MorseCodeTranslator()
     text = input("Enter Morse message:") #defines text as an input 
     morse_code = translator.translate_to_morse(text) #translates input into morse code 
+    ledr.value = True 
 
     if text == "-q": # if statement for -q quit system 
         print("invalid input")
@@ -44,6 +44,7 @@ while True:
     else: #if text doesn't equal -q then print the translation 
         print(f"Morse Code: {morse_code}")
 
-    if morse_code = ".":
-        led.value = True
-        time.sleep(.5)
+    if morse_code == ".":
+        ledr.value = True
+        time.sleep(.4)
+        ledr.value = False
