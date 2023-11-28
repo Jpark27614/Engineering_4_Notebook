@@ -241,6 +241,22 @@ For this assignment, we had to make a translator to Morse code and make it quit 
 
 This assignment was difficult for me and took me a long time. At first, I tried to write the code myself but later I looked online for examples of the translator to help me. I landed on a website called codepal which is linked here [codepal](https://codepal.ai/code-generator/query/9UmXp1um/python-translate-text-to-morse-code) which looking back wasn't the best code because it was overcomplicated but helped me to complete the assignment. The next thing I moved onto in the assignment was making the code not print when I entered -q. To do this I made a while True and defined text as "text = input("Enter Morse message:")" which makes text the user input. Then I plugged text into the translator function with "morse_code = translator.translate_to_morse(text)" which translates the input. Now for the -q system, I made the if statement, "if text == "-q":" followed by -q which quits it. Finally, I made the print function for normal printing which is "else: print(f"Morse Code: {morse_code}")" which says that if text doesn't equal q then print the translation. Also, for the translation, a necessary line of code is "text = text.upper()" which makes all input text uppercase so it matches with the all-capital Morse dictionary. Another if statement is "  if text == "":" then " morse_code += "/"" this is the if statement that makes spaces slashes between words by saying that if there is a space print a /.
 
+## Morse_Code_Part_2_(Transmission)
+
+### Assignment Description
+
+### Evidence 
+
+
+### Wiring
+
+![268067110-a741c193-4b99-4aba-8f90-9eeb1544838d](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/d71fd61e-d5c2-4b10-9ed2-cd2d4b2d6161)
+
+### Code
+
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Part_2)
+
+### Reflection 
 
 &nbsp;
 
