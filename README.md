@@ -248,7 +248,7 @@ This assignment was difficult for me and took me a long time. At first, I tried 
 For this assignment, we had to make an LED blink to convey a message input by blinking fast for a dot, longer for a dash, and turning off for a space.
 
 ### Evidence 
-https://im.ezgif.com/tmp/ezgif-1-ac2fe8e961.gif
+![ezgif-1-ac2fe8e961](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/8270a8d4-9d91-4174-a2bd-f454194b812d)
 
 ### Wiring
 
@@ -259,6 +259,10 @@ https://im.ezgif.com/tmp/ezgif-1-ac2fe8e961.gif
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Part_2)
 
 ### Reflection 
+
+This assignment was fun and not so challenging after completing the first one. Some very important lines of code are " modifier = 0.25, dot_time = 1*modifier, dash_time = 3*modifier
+between_taps = 1*modifier" etc. These lines set the time necessary for the LED to be on or off for the different variables of the morse code, this is useful because you don't have to come up with the time.sleeps to make the LED blink or stay on for longer. For reading the morse code message you need the line "for character in morse_code:" which is given in the assignment. Next, the line " if character == ".":" is saying if the morse message has a dot in it to blink the led with the lines "ledr.value = True, time.sleep(dot_time), ledr.value = False, time.sleep(between_taps)" the time.sleep(dot_time) uses the variable from before so the led stays on for the right amount of time. You then repeat these lines of code for the "-" and the " " so the led blinks accordingly. Overall, this assignment helped me better understand LEDs and Morse code as well as user input. 
+
 
 &nbsp;
 
