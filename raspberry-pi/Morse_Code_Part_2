@@ -4,6 +4,7 @@ import digitalio
 import time 
 ledr = digitalio.DigitalInOut(board.GP16)
 ledr.direction = digitalio.Direction.OUTPUT 
+
 modifier = 0.25
 dot_time = 1*modifier
 dash_time = 3*modifier
@@ -37,11 +38,11 @@ class MorseCodeTranslator:
             morse_code += "/" #when there is a space it fills it with a /
         return morse_code_text
 
+
 while True:
     translator = MorseCodeTranslator()
     text = input("Enter Morse message:") #defines text as an input 
     morse_code = translator.translate_to_morse(text) #translates input into morse code 
-    ledr.value = True 
 
     if text == "-q": # if statement for -q quit system 
         print("invalid input")
@@ -50,8 +51,17 @@ while True:
     else: #if text doesn't equal -q then print the translation 
         print(f"Morse Code: {morse_code}")
 
-for character in morse_message:
-    if character = "."
-        ledr.value = True
-        time.sleep(.4)
-        ledr.value = False
+    for character in morse_code:
+        if character == ".":
+            ledr.value = True
+            time.sleep(dot_time)
+            ledr.value = False
+            time.sleep(between_taps)
+        elif character == "-":
+            ledr.value = True
+            time.sleep(dash_time)
+            ledr.value = False 
+            time.sleep(between_taps)
+        elif character == " ":
+            ledr.value = False 
+            time.sleep(between_letters)
