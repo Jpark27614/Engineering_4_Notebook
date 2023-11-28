@@ -245,9 +245,10 @@ This assignment was difficult for me and took me a long time. At first, I tried 
 ## Morse_Code_Part_2_(Transmission)
 
 ### Assignment Description
+For this assignment, we had to make an LED blink to convey a message input by blinking fast for a dot, longer for a dash, and turning off for a space.
 
 ### Evidence 
-
+https://im.ezgif.com/tmp/ezgif-1-ac2fe8e961.gif
 
 ### Wiring
 
