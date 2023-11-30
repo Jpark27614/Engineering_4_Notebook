@@ -1,0 +1,53 @@
+#type:ignore
+import board
+import digitalio
+import storage
+import adafruit_mpu6050
+import busio
+import time
+
+led = digitalio.DigitalInOut(board.GP16) #connecting the LED to the pico pin
+led.direction = digitalio.Direction.OUTPUT #Sets the LED as outputs
+sda_pin = board.GP14 #defines the SDA a pin in the GP14
+scl_pin = board.GP15 #defines the SCL a pin in the GP15
+i2c = busio.I2C(scl_pin, sda_pin) #uses the backpack
+mpu = adafruit_mpu6050.MPU6050(i2c) #defines mpu as the mpu on the board
+
+write_pin = digitalio.DigitalInOut(board.GP0)
+write_pin.direction = digitalio.Direction.INPUT
+write_pin.pull = digitalio.Pull.UP
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+time.sleep(2)
+
+with open("/data.csv", "a") as datalog:
+    while True:
+        time_elapsed = time.monotonic()
+
+        acceleration = mpu.acceleration #defines acceleration as the mpu acceleration
+        x_acceleration, y_acceleration, z_acceleration = acceleration # all of the factors xyz = to the mpu acceleration
+        print(f"acceleration m/s^2- X:{round(acceleration[0],3)} Y:{round(acceleration[1],3)} Z:{round(acceleration[2]),3}" ) 
+        #prints to serial monitor printing the acceleration for xyz and rounding them to the 3rd decimal place
+        time.sleep(.2)
+        if z_acceleration < 0: #says that if z is less than 0 then turn the LED on
+            led.value = True #turn on led
+        elif z_acceleration > 0: #says if z is greater than 0 turn off led
+            led.value = False #turn off led
+            
+         tilt = 1 if is_tilted(acceleration, tilt_threshold) else 0
+
+        data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{tilt}\n"
+
+        datalog.write(data_string)
+        
+        # Blink the onboard LED briefly
+        led.value = True
+        time.sleep(0.1)
+        led.value = False
+
+        # Flush the file to ensure data is saved
+        datalog.flush()
+
+        # Add a delay to control the sampling rate (4 samples per second)
+        time.sleep(0.25)
