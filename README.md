@@ -14,6 +14,7 @@
 * [Landing Area Part 1](#Landing_Area_Part_1_Functions)
 * [Landing Area Part 2](#Landing_area_part_2_plotting)
 * [Morse Code Part 1](#Morse_code_part_1_translation)
+* [Morse Code Part 2](#Morse_code_part_2_transmission)
 * [Beam](#beam)
 * [Beam Part 3](#beam_part_3)
 * [Beam Iteration](#beam_iterations)
@@ -240,6 +241,27 @@ For this assignment, we had to make a translator to Morse code and make it quit 
 ### Reflection
 
 This assignment was difficult for me and took me a long time. At first, I tried to write the code myself but later I looked online for examples of the translator to help me. I landed on a website called codepal which is linked here [codepal](https://codepal.ai/code-generator/query/9UmXp1um/python-translate-text-to-morse-code) which looking back wasn't the best code because it was overcomplicated but helped me to complete the assignment. The next thing I moved onto in the assignment was making the code not print when I entered -q. To do this I made a while True and defined text as "text = input("Enter Morse message:")" which makes text the user input. Then I plugged text into the translator function with "morse_code = translator.translate_to_morse(text)" which translates the input. Now for the -q system, I made the if statement, "if text == "-q":" followed by -q which quits it. Finally, I made the print function for normal printing which is "else: print(f"Morse Code: {morse_code}")" which says that if text doesn't equal q then print the translation. Also, for the translation, a necessary line of code is "text = text.upper()" which makes all input text uppercase so it matches with the all-capital Morse dictionary. Another if statement is "  if text == "":" then " morse_code += "/"" this is the if statement that makes spaces slashes between words by saying that if there is a space print a /.
+
+## Morse_Code_Part_2_(Transmission)
+
+### Assignment Description
+For this assignment, we had to make an LED blink to convey a message input by blinking fast for a dot, longer for a dash, and turning off for a space.
+
+### Evidence 
+![ezgif-1-ac2fe8e961](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/8270a8d4-9d91-4174-a2bd-f454194b812d)
+
+### Wiring
+
+![268067110-a741c193-4b99-4aba-8f90-9eeb1544838d](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/d71fd61e-d5c2-4b10-9ed2-cd2d4b2d6161)
+
+### Code
+
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Part_2)
+
+### Reflection 
+
+This assignment was fun and not so challenging after completing the first one. Some very important lines of code are " modifier = 0.25, dot_time = 1*modifier, dash_time = 3*modifier
+between_taps = 1*modifier" etc. These lines set the time necessary for the LED to be on or off for the different variables of the morse code, this is useful because you don't have to come up with the time.sleeps to make the LED blink or stay on for longer. For reading the morse code message you need the line "for character in morse_code:" which is given in the assignment. Next, the line " if character == ".":" is saying if the morse message has a dot in it to blink the led with the lines "ledr.value = True, time.sleep(dot_time), ledr.value = False, time.sleep(between_taps)" the time.sleep(dot_time) uses the variable from before so the led stays on for the right amount of time. You then repeat these lines of code for the "-" and the " " so the led blinks accordingly. Overall, this assignment helped me better understand LEDs and Morse code as well as user input. 
 
 
 &nbsp;
