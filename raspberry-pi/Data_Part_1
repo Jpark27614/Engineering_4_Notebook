@@ -21,13 +21,13 @@ led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 time.sleep(2)
 
-def is_tilted(acceleration, tilt_threshold):
-    x_acceleration, y_acceleration, z_acceleration = acceleration
-    return z_acceleration < -tilt_threshold
+def is_tilted(acceleration, tilt_threshold): # defines is the z acceleration is below the tilt threshold then it is being tilted
+    z_acceleration = acceleration
+    return z_acceleration < -tilt_threshold # if z acceleration is less than the tilt threshold (if its tilted)
 
-with open("/data.csv", "a") as datalog:
+with open("/data.csv", "a") as datalog: # opens data mode so it has to be in data mode 
     while True:
-        time_elapsed = time.monotonic()
+        time_elapsed = time.monotonic() # checks when time starts
 
         acceleration = mpu.acceleration #defines acceleration as the mpu acceleration
         x_acceleration, y_acceleration, z_acceleration = acceleration # all of the factors xyz = to the mpu acceleration
@@ -39,12 +39,12 @@ with open("/data.csv", "a") as datalog:
         elif z_acceleration > 0: #says if z is greater than 0 turn off led
             led2.value = False #turn off led
         
-        tilt_threshold = 0.45 
+        tilt_threshold = 0.45 # sets level value or the tilt threshold 
         tilt = 1 if is_tilted(acceleration, tilt_threshold) else 0
 
-        data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{tilt}\n"
+        data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{tilt}\n" 
 
-        datalog.write(data_string)
+        datalog.write(data_string) # writes the data to the datalog 
         
         # Blink the onboard LED briefly
         led.value = True
