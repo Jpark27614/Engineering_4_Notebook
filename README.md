@@ -264,6 +264,23 @@ For this assignment, we had to make an LED blink to convey a message input by bl
 This assignment was fun and not so challenging after completing the first one. Some very important lines of code are " modifier = 0.25, dot_time = 1*modifier, dash_time = 3*modifier
 between_taps = 1*modifier" etc. These lines set the time necessary for the LED to be on or off for the different variables of the morse code, this is useful because you don't have to come up with the time.sleeps to make the LED blink or stay on for longer. For reading the morse code message you need the line "for character in morse_code:" which is given in the assignment. Next, the line " if character == ".":" is saying if the morse message has a dot in it to blink the led with the lines "ledr.value = True, time.sleep(dot_time), ledr.value = False, time.sleep(between_taps)" the time.sleep(dot_time) uses the variable from before so the led stays on for the right amount of time. You then repeat these lines of code for the "-" and the " " so the led blinks accordingly. Overall, this assignment helped me better understand LEDs and Morse code as well as user input. 
 
+## Data_Part_1_(Storage)
+
+### Assignment Description 
+
+### Evidence
+![ezgif com-optimize (1)-min](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/df70d0fb-1811-4be2-846a-d2c8dfe2fd13)
+![Capture](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/d9f64045-980b-4316-8ef1-11c5ce549c9a)
+
+### Wiring
+
+### Code
+[code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Part_1)
+
+* help and part of the code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)
+
+### Reflection 
+
 
 &nbsp;
 
