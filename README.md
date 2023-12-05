@@ -274,11 +274,13 @@ between_taps = 1*modifier" etc. These lines set the time necessary for the LED t
 ![Capture](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/d9f64045-980b-4316-8ef1-11c5ce549c9a)
 
 ### Wiring
+![IMG_20231205_132033](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/b4bf5896-127d-41d8-a926-7b63704ec4bf)
+
 
 ### Code
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Part_1)
 
-* help and part of the code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)
+*help and part of the code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py) I used large portions of [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)'s work in this assignment. Here is a link to their notebook.*
 
 ### Reflection 
 
