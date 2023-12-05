@@ -280,10 +280,10 @@ between_taps = 1*modifier" etc. These lines set the time necessary for the LED t
 ### Code
 [code](https://github.com/Jpark27614/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Part_1)
 
-*help and part of the code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py) I used large portions of [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)'s work in this assignment. Here is a link to their notebook.*
+*help and part of the code from [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py) (own commenting) I used large portions of [Mason Divers](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)'s work in this assignment. Here is a link to their notebook.*
 
 ### Reflection 
-
+This assignment was pretty difficult for me but was very informative about data and code mode as well as storage. I needed Mason's help for this assignment and I used a chunk of his code. For this assignment, we need to use data mode which I had trouble figuring out. On the board, you need a wire to connect GP0 and GND and when these are connected it is in data mode and you write it with the lines "write_pin =digitalio.DigitalInOut(board.GP0)" "write_pin.direction = digitalio.Direction.INPUT" and "write_pin.pull = digitalio.Pull.UP" which define the pin. You also have to define the tilt threshold which checks if it is tilted or not with the lines "z_acceleration = acceleration" and "return z_acceleration < -tilt_threshold". Next before the while true you need "with open("/data.csv", "a") as datalog:" this means that you need to be in data mode and if you are in code mode it won't work. After the code for the previous assignment of printing to the terminal you need the line "data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{tilt}\n" which sets the data string to the different accelerations. Next you need " datalog.write(data_string)" which stores the data to the datalog and you need the line "datalog.flush()" which ensures the data is saved. 
 
 &nbsp;
 
