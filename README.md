@@ -16,6 +16,7 @@
 * [Morse Code Part 1](#Morse_code_part_1_translation)
 * [Morse Code Part 2](#Morse_code_part_2_transmission)
 * [Data Part 1](#Data_part_1_storage)
+* [Data Part 2](#Data_part_2_analysis)
 * [Beam](#beam)
 * [Beam Part 3](#beam_part_3)
 * [Beam Iteration](#beam_iterations)
