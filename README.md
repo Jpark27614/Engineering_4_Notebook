@@ -288,17 +288,20 @@ This assignment was pretty difficult for me but was very informative about data 
 ## Data_Part_2_(Analysis)
 
 ### Assignment Description
+For this assignment, we had to make 2 graphs based on the data that we captured from Data Part 1 (storage).
 
 ### Evidence
 ![Capture](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/079f782d-c40e-4014-9809-e5af1e195818)
 ![Capture](https://github.com/Jpark27614/Engineering_4_Notebook/assets/113122312/012689f4-01ae-4109-9947-ff044101f69e)
 
-
 ### Wiring
+No wiring.
 
 ### Code
+No code.
 
 ### Reflection 
+This assignment was pretty easy because no code was involved and there was a step by step instruction. I did start to make a graph in the data app but then I realized to shift the data to google sheets. To do this I selected the first box then clicked shift and the bottom right corner which selects all the data then paste it (control v) into the Google sheet.
 
 &nbsp;
 
